@@ -4,7 +4,7 @@ class Header extends React.Component {
     render() {
         return (
             <header className ="top">
-                <h1>Catch
+                <h1>Panel
                     <span className="ofThe">
                         <span className="of">Of</span>
                         <span className="the">the</span>
@@ -12,7 +12,7 @@ class Header extends React.Component {
                     Day!
                 </h1>
                <h3 className="tagline">
-                <span>Fresh Panels Daily!</span>
+                <span>{this.props.tagline}</span>
                 </h3>             
             </header>
         )
