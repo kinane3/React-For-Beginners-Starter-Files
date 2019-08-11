@@ -1,9 +1,11 @@
 import React from "react";
 import AddFishForm from "./AddFishForm";
 import EditFishForm from "./EditFishForm";
+import Login from "./Login";
 
 class Inventory extends React.Component {
   render() {
+    return <Login />;
     return (
       <div className="Inventory">
         <h2>Inventory</h2>
